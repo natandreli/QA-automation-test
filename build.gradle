@@ -14,7 +14,9 @@ plugins {
 
 group 'co.com.udea.certificacion'
 
-sourceCompatibility = 11
+java {
+    sourceCompatibility = JavaVersion.VERSION_22
+}
 
 repositories {
 
